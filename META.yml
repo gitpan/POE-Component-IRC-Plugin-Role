@@ -1,0 +1,35 @@
+---
+abstract: 'A Moose role for POE::Component::IRC plugins'
+author:
+  - 'Chris Williams <chris@bingosnet.co.uk>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.47
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: POE-Component-IRC-Plugin-Role
+no_index:
+  directory:
+    - inc
+    - t
+provides:
+  POE::Component::IRC::Plugin::Role:
+    file: lib/POE/Component/IRC/Plugin/Role.pm
+    version: 0.02
+requires:
+  Moose: 0.87
+  POE: 1.004
+  POE::Component::IRC: 6.08
+  POE::Component::IRC::Plugin: 0.1
+  perl: 5.6.0
+resources:
+  homepage: http://github.com/bingos/poe-component-irc-plugin-role/tree
+  license: http://dev.perl.org/licenses/
+  repository: git://github.com/bingos/poe-component-irc-plugin-role.git
+version: 0.02
