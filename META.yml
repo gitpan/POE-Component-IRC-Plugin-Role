@@ -21,7 +21,7 @@ no_index:
 provides:
   POE::Component::IRC::Plugin::Role:
     file: lib/POE/Component/IRC/Plugin/Role.pm
-    version: 0.02
+    version: 0.04
 requires:
   Moose: 0.87
   POE: 1.004
@@ -32,4 +32,4 @@ resources:
   homepage: http://github.com/bingos/poe-component-irc-plugin-role/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/poe-component-irc-plugin-role.git
-version: 0.02
+version: 0.04
